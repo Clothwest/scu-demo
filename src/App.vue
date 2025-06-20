@@ -16,7 +16,8 @@ const jumpToDemo = () => {
 
     <div class="wrapper">
       <HelloWorld msg="Hello World!" />
-      <button @click="jumpToDemo">demo</button>
+      <button @click="jumpToDemo">demo</button><br/>
+      <h6>hello</h6>
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
